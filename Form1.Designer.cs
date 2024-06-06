@@ -48,7 +48,7 @@
             this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_close.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_close.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btn_close.Location = new System.Drawing.Point(286, 212);
+            this.btn_close.Location = new System.Drawing.Point(170, 62);
             this.btn_close.Name = "btn_close";
             this.btn_close.Size = new System.Drawing.Size(75, 23);
             this.btn_close.TabIndex = 0;
@@ -66,7 +66,7 @@
             this.btn_go.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_go.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold);
             this.btn_go.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btn_go.Location = new System.Drawing.Point(411, 212);
+            this.btn_go.Location = new System.Drawing.Point(502, 62);
             this.btn_go.Name = "btn_go";
             this.btn_go.Size = new System.Drawing.Size(75, 23);
             this.btn_go.TabIndex = 1;
@@ -78,7 +78,7 @@
             // txt_output
             // 
             this.txt_output.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.txt_output.Location = new System.Drawing.Point(170, 62);
+            this.txt_output.Location = new System.Drawing.Point(170, 12);
             this.txt_output.MaxLength = 20;
             this.txt_output.Name = "txt_output";
             this.txt_output.Size = new System.Drawing.Size(407, 44);
@@ -122,7 +122,7 @@
             this.bttn_editInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttn_editInfo.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold);
             this.bttn_editInfo.ForeColor = System.Drawing.Color.DarkBlue;
-            this.bttn_editInfo.Location = new System.Drawing.Point(89, 82);
+            this.bttn_editInfo.Location = new System.Drawing.Point(89, 12);
             this.bttn_editInfo.Name = "bttn_editInfo";
             this.bttn_editInfo.Size = new System.Drawing.Size(75, 23);
             this.bttn_editInfo.TabIndex = 6;
