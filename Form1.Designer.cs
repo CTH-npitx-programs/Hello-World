@@ -48,7 +48,7 @@
             this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_close.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_close.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btn_close.Location = new System.Drawing.Point(170, 62);
+            this.btn_close.Location = new System.Drawing.Point(502, 62);
             this.btn_close.Name = "btn_close";
             this.btn_close.Size = new System.Drawing.Size(75, 23);
             this.btn_close.TabIndex = 0;
@@ -66,7 +66,7 @@
             this.btn_go.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_go.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold);
             this.btn_go.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btn_go.Location = new System.Drawing.Point(502, 62);
+            this.btn_go.Location = new System.Drawing.Point(583, 41);
             this.btn_go.Name = "btn_go";
             this.btn_go.Size = new System.Drawing.Size(75, 23);
             this.btn_go.TabIndex = 1;
@@ -105,7 +105,7 @@
             this.bttn_nameIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttn_nameIn.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold);
             this.bttn_nameIn.ForeColor = System.Drawing.Color.DarkBlue;
-            this.bttn_nameIn.Location = new System.Drawing.Point(583, 62);
+            this.bttn_nameIn.Location = new System.Drawing.Point(583, 12);
             this.bttn_nameIn.Name = "bttn_nameIn";
             this.bttn_nameIn.Size = new System.Drawing.Size(108, 23);
             this.bttn_nameIn.TabIndex = 5;
@@ -122,7 +122,7 @@
             this.bttn_editInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttn_editInfo.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold);
             this.bttn_editInfo.ForeColor = System.Drawing.Color.DarkBlue;
-            this.bttn_editInfo.Location = new System.Drawing.Point(89, 106);
+            this.bttn_editInfo.Location = new System.Drawing.Point(583, 80);
             this.bttn_editInfo.Name = "bttn_editInfo";
             this.bttn_editInfo.Size = new System.Drawing.Size(75, 23);
             this.bttn_editInfo.TabIndex = 6;
