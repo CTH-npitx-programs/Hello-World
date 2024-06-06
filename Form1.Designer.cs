@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.TextBox txt_name;
             this.btn_close = new System.Windows.Forms.Button();
             this.btn_go = new System.Windows.Forms.Button();
             this.txt_output = new System.Windows.Forms.TextBox();
-            this.txt_name = new System.Windows.Forms.TextBox();
             this.bttn_nameIn = new System.Windows.Forms.Button();
             this.bttn_editInfo = new System.Windows.Forms.Button();
+            txt_name = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_close
@@ -48,7 +49,7 @@
             this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_close.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_close.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btn_close.Location = new System.Drawing.Point(170, 62);
+            this.btn_close.Location = new System.Drawing.Point(648, 41);
             this.btn_close.Name = "btn_close";
             this.btn_close.Size = new System.Drawing.Size(75, 23);
             this.btn_close.TabIndex = 0;
@@ -66,7 +67,7 @@
             this.btn_go.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_go.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold);
             this.btn_go.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btn_go.Location = new System.Drawing.Point(502, 62);
+            this.btn_go.Location = new System.Drawing.Point(583, 91);
             this.btn_go.Name = "btn_go";
             this.btn_go.Size = new System.Drawing.Size(75, 23);
             this.btn_go.TabIndex = 1;
@@ -78,7 +79,7 @@
             // txt_output
             // 
             this.txt_output.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.txt_output.Location = new System.Drawing.Point(170, 91);
+            this.txt_output.Location = new System.Drawing.Point(170, 62);
             this.txt_output.MaxLength = 20;
             this.txt_output.Name = "txt_output";
             this.txt_output.Size = new System.Drawing.Size(407, 44);
@@ -88,13 +89,13 @@
             // 
             // txt_name
             // 
-            this.txt_name.Font = new System.Drawing.Font("Times New Roman", 24F);
-            this.txt_name.Location = new System.Drawing.Point(170, 12);
-            this.txt_name.MaxLength = 20;
-            this.txt_name.Name = "txt_name";
-            this.txt_name.Size = new System.Drawing.Size(407, 44);
-            this.txt_name.TabIndex = 4;
-            this.txt_name.TextChanged += new System.EventHandler(this.txt_name_TextChanged);
+            txt_name.Font = new System.Drawing.Font("Times New Roman", 24F);
+            txt_name.Location = new System.Drawing.Point(170, 12);
+            txt_name.MaxLength = 20;
+            txt_name.Name = "txt_name";
+            txt_name.Size = new System.Drawing.Size(407, 44);
+            txt_name.TabIndex = 4;
+            txt_name.TextChanged += new System.EventHandler(this.txt_name_TextChanged);
             // 
             // bttn_nameIn
             // 
@@ -105,7 +106,7 @@
             this.bttn_nameIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttn_nameIn.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold);
             this.bttn_nameIn.ForeColor = System.Drawing.Color.DarkBlue;
-            this.bttn_nameIn.Location = new System.Drawing.Point(583, 62);
+            this.bttn_nameIn.Location = new System.Drawing.Point(583, 12);
             this.bttn_nameIn.Name = "bttn_nameIn";
             this.bttn_nameIn.Size = new System.Drawing.Size(108, 23);
             this.bttn_nameIn.TabIndex = 5;
@@ -122,7 +123,7 @@
             this.bttn_editInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttn_editInfo.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold);
             this.bttn_editInfo.ForeColor = System.Drawing.Color.DarkBlue;
-            this.bttn_editInfo.Location = new System.Drawing.Point(89, 106);
+            this.bttn_editInfo.Location = new System.Drawing.Point(583, 62);
             this.bttn_editInfo.Name = "bttn_editInfo";
             this.bttn_editInfo.Size = new System.Drawing.Size(75, 23);
             this.bttn_editInfo.TabIndex = 6;
@@ -139,7 +140,7 @@
             this.ClientSize = new System.Drawing.Size(735, 483);
             this.Controls.Add(this.bttn_editInfo);
             this.Controls.Add(this.bttn_nameIn);
-            this.Controls.Add(this.txt_name);
+            this.Controls.Add(txt_name);
             this.Controls.Add(this.txt_output);
             this.Controls.Add(this.btn_go);
             this.Controls.Add(this.btn_close);
@@ -159,7 +160,6 @@
         private System.Windows.Forms.Button btn_close;
         private System.Windows.Forms.Button btn_go;
         private System.Windows.Forms.TextBox txt_output;
-        private System.Windows.Forms.TextBox txt_name;
         private System.Windows.Forms.Button bttn_nameIn;
         private System.Windows.Forms.Button bttn_editInfo;
     }
