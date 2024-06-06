@@ -41,6 +41,7 @@ namespace Hello_World
             {
                 bttn_nameIn.Show();
             }
+            else
             {
                 bttn_nameIn.Hide();
             }

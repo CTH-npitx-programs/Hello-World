@@ -110,6 +110,7 @@
             this.bttn_nameIn.TabIndex = 5;
             this.bttn_nameIn.Text = "Submit Name";
             this.bttn_nameIn.UseVisualStyleBackColor = true;
+            this.bttn_nameIn.Visible = false;
             this.bttn_nameIn.Click += new System.EventHandler(this.bttn_nameIn_Click);
             // 
             // frm_HelloWorld
