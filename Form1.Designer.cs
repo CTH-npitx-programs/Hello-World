@@ -105,7 +105,7 @@
             this.bttn_nameIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttn_nameIn.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold);
             this.bttn_nameIn.ForeColor = System.Drawing.Color.DarkBlue;
-            this.bttn_nameIn.Location = new System.Drawing.Point(594, 12);
+            this.bttn_nameIn.Location = new System.Drawing.Point(583, 62);
             this.bttn_nameIn.Name = "bttn_nameIn";
             this.bttn_nameIn.Size = new System.Drawing.Size(108, 23);
             this.bttn_nameIn.TabIndex = 5;
@@ -122,7 +122,7 @@
             this.bttn_editInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttn_editInfo.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold);
             this.bttn_editInfo.ForeColor = System.Drawing.Color.DarkBlue;
-            this.bttn_editInfo.Location = new System.Drawing.Point(89, 12);
+            this.bttn_editInfo.Location = new System.Drawing.Point(89, 106);
             this.bttn_editInfo.Name = "bttn_editInfo";
             this.bttn_editInfo.Size = new System.Drawing.Size(75, 23);
             this.bttn_editInfo.TabIndex = 6;

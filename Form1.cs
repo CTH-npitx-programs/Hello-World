@@ -15,6 +15,7 @@ namespace Hello_World
 {
     public partial class frm_HelloWorld : Form
     {
+        string greeting = "Hello ";
         public frm_HelloWorld()
         {
             InitializeComponent();
@@ -30,8 +31,7 @@ namespace Hello_World
 
         private void btn_go_Click(object sender, EventArgs e)
         {
-            var greeting = "Hello " + txt_name.Text + "!";
-            txt_output.Text = greeting;
+            txt_output.Text = greeting + txt_name.Text + "!";
             //need a wait or pause
             bttn_editInfo.Show();
         }
@@ -55,6 +55,7 @@ namespace Hello_World
             txt_output.Show();
             bttn_nameIn.Hide();
             txt_name.Hide();
+            txt_output.Text = greeting + txt_name.Text + "!";
         }
 
         private void bttn_editInfo_Click(object sender, EventArgs e)
