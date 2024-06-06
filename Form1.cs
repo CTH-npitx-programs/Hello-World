@@ -33,7 +33,6 @@ namespace Hello_World
         {
             txt_output.Text = greeting + txt_name.Text + "!";
             //need a wait or pause
-            bttn_editInfo.Show();
         }
 
         private void txt_name_TextChanged(object sender, EventArgs e)
@@ -56,6 +55,7 @@ namespace Hello_World
             bttn_nameIn.Hide();
             txt_name.Hide();
             txt_output.Text = greeting + txt_name.Text + "!";
+            bttn_editInfo.Show();
         }
 
         private void bttn_editInfo_Click(object sender, EventArgs e)
