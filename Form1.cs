@@ -37,12 +37,12 @@ namespace Hello_World
 
         private void txt_name_TextChanged(object sender, EventArgs e)
         {
-            if (txt_name.Text.Length() > 0)
-            {
-                bttn_nameIn.Hide();
-            }
+            if (txt_name.Text.Length > 0)
             {
                 bttn_nameIn.Show();
+            }
+            {
+                bttn_nameIn.Hide();
             }
             // if kept as "greater than 0", invert, as hide should only be if less than 0
         }
