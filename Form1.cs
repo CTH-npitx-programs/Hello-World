@@ -30,9 +30,10 @@ namespace Hello_World
 
         private void btn_go_Click(object sender, EventArgs e)
         {
-            var greeting = "Hello " + txt_name.Text;
+            var greeting = "Hello " + txt_name.Text + "!";
             txt_output.Text = greeting;
-
+            //need a wait or pause
+            bttn_editInfo.Show();
         }
 
         private void txt_name_TextChanged(object sender, EventArgs e)
@@ -54,6 +55,16 @@ namespace Hello_World
             txt_output.Show();
             bttn_nameIn.Hide();
             txt_name.Hide();
+        }
+
+        private void bttn_editInfo_Click(object sender, EventArgs e)
+        {
+            btn_go.Hide();
+            txt_name.Text = string.Empty;
+            txt_name.Show();
+            bttn_editInfo.Hide();
+            txt_output.Text = string.Empty;
+            txt_output.Hide();
         }
     }
 }
